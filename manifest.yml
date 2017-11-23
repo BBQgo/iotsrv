@@ -4,7 +4,6 @@ applications:
   memory: 512M
   instances: 1
   buildpack: go_buildpack
-  command: make run
   env:
     GOVERSION: go1.8
     GOPACKAGENAME: iotsrv
