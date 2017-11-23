@@ -6,7 +6,7 @@ vendor:
 	glide update
 
 build: vendor
-	go build bbqsrv.go
+	go build main.go
 
-run: 
-	go run bbqsrv.go
+run:
+	go run main.go
