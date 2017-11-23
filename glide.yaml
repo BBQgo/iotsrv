@@ -1,0 +1,4 @@
+package: github.com/BBQgo/iotsrv
+import:
+- package: github.com/eclipse/paho.mqtt.golang
+- package: github.com/gin-gonic/gin

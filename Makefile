@@ -1,9 +1,12 @@
 .DEFAULT: build
 
-.PHONY: build run
+.PHONY: build run vendor
 
-build:
+vendor:
+	glide update
+
+build: vendor
 	go build bbqsrv.go
 
-run:
+run: 
 	go run bbqsrv.go

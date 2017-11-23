@@ -1,0 +1,41 @@
+hash: 51b78f46b9cb23a792e609daf6206f008f26aa0c4d736fcbd12cbc26e2109d7c
+updated: 2017-11-23T20:52:20.365316986+01:00
+imports:
+- name: github.com/eclipse/paho.mqtt.golang
+  version: 512dcaa501c1580ea8eccb062ba06cc0c2b78172
+  subpackages:
+  - packets
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: eeb57848cac06c360a3c262837394051018b8f66
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/golang/protobuf
+  version: 2bba0603135d7d7f5cb73b2125beeda19c09f4ef
+  subpackages:
+  - proto
+- name: github.com/json-iterator/go
+  version: ff2b70c1dbffdd98567bd8c2f9449d97c0d04c88
+- name: github.com/mattn/go-isatty
+  version: 6ca4dbf54d38eea1a992b3c722a76a5d1c4cb25c
+- name: github.com/ugorji/go
+  version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
+  subpackages:
+  - codec
+- name: golang.org/x/net
+  version: f2499483f923065a842d38eb4c7f1927e6fc6e6d
+  subpackages:
+  - proxy
+  - websocket
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+testImports: []
