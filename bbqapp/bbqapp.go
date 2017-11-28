@@ -15,6 +15,7 @@ var mqttClient mqtt.Client
 
 // Temp is the JSON structure for the temperatures
 type Temp struct {
+	Name  string  `json:"name"`
 	Index int     `json:"index"`
 	Temp  float64 `json:"temp"`
 }
